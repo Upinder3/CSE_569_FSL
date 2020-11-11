@@ -12,4 +12,5 @@ python project.py --help
 
 
 Command using all arguments:
+
 python project.py -train0 data/training0.mat -train1 data/training1.mat -test0 data/testing0.mat -test1 data/testing1.mat -print -plot
