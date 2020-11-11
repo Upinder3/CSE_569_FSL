@@ -19,7 +19,7 @@ def parse_arguments():
     parser.add_argument('-test1' , '-te1', dest = "test_file1" , required = True, help="Testing File 1")
 
     parser.add_argument('-print' , '-p'  , dest = "print_output" , action = 'store_true', required = False, help="If you want to print intermediate results")
-    parser.add_argument('-plot'  , '-pl' , dest = "plot_pca_comp", action = 'store_true', required = False, help="If you want to print intermediate results")
+    parser.add_argument('-plot'  , '-pl' , dest = "plot_pca_comp", action = 'store_true', required = False, help="If you want to plot the class distribution of data with pca components")
 
     return parser.parse_args()
 
