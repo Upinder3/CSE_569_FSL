@@ -1,4 +1,4 @@
-Command to find the accuracy of the MNIST data (data is only the subset of MNIST, containing only 0 and 1) :
+Command to find the accuracy of the MNIST data (data is only the subset of MNIST, containing only 0 and 1 digits data) :
 
 python project.py -train0 data/training0.mat -train1 data/training1.mat -test0 data/testing0.mat -test1 data/testing1.mat
 
@@ -12,4 +12,5 @@ python project.py --help
 
 
 Command using all arguments:
+
 python project.py -train0 data/training0.mat -train1 data/training1.mat -test0 data/testing0.mat -test1 data/testing1.mat -print -plot
